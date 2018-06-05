@@ -13,51 +13,292 @@
  <!-------------------------------------Empieza codigo------------------------------->
   
  
-  <!-----Bara de navegacion--------------------------------------------------->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light-fluid" >
+   <!-----Bara de navegacion--------------------------------------------------->
 
-    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.svg"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+   
+<nav class="navbar navbar-expand-xl bg-dark navbar-dark ">
+  <a href="index.html" class="navbar-brand"><img src="img/logo.svg" style="width: 200px"></a>
+
+    <button class="navbar-toggler" type="button"data-toggle="collapse" data-target="#uno">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNav">
-     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="cbs.html">Homocistinuria Clásica</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="remi.html">Trastornos de la remetilación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="fundacion.html">La fundación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disable" href="#">Información para Doctores</a>
-      </li>
-      </ul>
+
+    <div class="collapse navbar-collapse" id="uno"> 
+        <ul class="navbar-nav ml-auto"><!-- ul mas nav, navegacion(nav-pills una forma de manipular) -->
+          <li class="nav-item"><a href="index.html" class="nav-link active">INICIO</a></li>
+          <li class="nav-item dropdown">
+            <a href="cbs.html" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop" >HOMOCISTINURIA CLÁSICA</a>
+              <div class="dropdown-menu">
+                <a href="cbs.html" class="dropdown-item ">¿COMÓ EL CUERPO TRATA A LA PROTÉINA?</a>
+                <a href="#" class="dropdown-item ">DEGRADACIÓN DE LA METIONINA Y HOMOCISTEINA</a>
+                <a href="#" class="dropdown-item">HOMOCISTINURIA</a>
+                <a href="#" class="dropdown-item">SINTOMAS</a>
+                <a href="#" class="dropdown-item">TRATAMIETNO</a>
+                <a href="#" class="dropdown-item">¿PORQUÉ MI HIJO TIENE ESTA ENFERMEDAD?</a>
+                <a href="#" class="dropdown-item">RESULTADOS A LARGO PLAZO</a>
+                <a href="#" class="dropdown-item">GLOSARIO</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="remi.html" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">TRASTORNOS DE LA REMETILACIÓN</a>
+              <div class="dropdown-menu">
+                <a href="remi.html" class="dropdown-item">FUNCIÓN METABOLICA</a>
+                <a href="#" class="dropdown-item">¿COMO SE OCUPA EL CUERPO DE LA PROTEINA?</a>
+                <a href="#" class="dropdown-item col-xs-12">RUTAS METABOLICAS DE LA METIONINA-HOMOCISTEINA</a>
+                <a href="#" class="dropdown-item">TRASTORNOS DE LA REMETILACIÓN</a>
+                <a href="#" class="dropdown-item">SINTOMAS</a>
+                <a href="#" class="dropdown-item">TRATAMIETNO</a>
+                <a href="#" class="dropdown-item">¿PORQUÉ MI HIJO TIENE ESTA ENFERMEDAD?</a>
+                <a href="#" class="dropdown-item">RESULTADOS A LARGO PLAZO</a>
+                <a href="#" class="dropdown-item">GLOSARIO</a>
+              </div>
+          </li>
+            <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">LA FUNDACIÓN</a>
+              <div class="dropdown-menu">
+                <a href="fundacion.html" class="dropdown-item">¿QUIENES SOMOS?</a>
+                <a href="#" class="dropdown-item">MISIÓN</a>
+                <a href="#" class="dropdown-item">VISIÓN</a>
+                <a href="#" class="dropdown-item">OBJETIVO</a>
+                <a href="#" class="dropdown-item">CONTACTO</a>
+              </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link disabled">INFORMACIÓN PARA DOCTORES</a></li>    
+        </ul>
     </div>
-  </nav>
-<!-- -----------------Fin Barra navegacion----------------->
- <h1>Metabolismo</h1>
-  <div class="container-fluid">
-    <div class="row">
-      
-      <div class="col-6">¿Cómo se ocupa el cuerpo de las
-proteínas?</div>
-      <div class="col-6">La degradación de la metionina y de
-la homocisteína</div>
+</nav>
+  <!-- -----------------Fin Barra navegacion----------------->
+ 
+ <div class="container col-11" >
+   <h1>Introducción</h1><hr>
+    <p>Tú o tú hijo/a fu fuisteis diagnosticados de un trastorno de la remetilación. Varios trastornos pertenecen a este grupo de enfermedades y enumeramos a continuación sus nombres:</p>
+     <ul>
+        <li>Deficiencia de Cobalamina C (CblC)</li>
+        <li>Deficiencia de Cobalamina D (CblD)</li>
+        <li>Deficiencia de Cobalamina E (CblE)</ll>
+        <li>Deficiencia de Cobalamina F (CblF)</li>
+        <li>Deficiencia de Cobalamina G (CblG)</ll>
+        <li>Deficiencia de Cobalamina J (CblJ)</li>
+        <li>Deficiencia severa de 5,10-metilen-tetrahidrofolato reductasa (MTHFR)</il>
+     </ul>             
+     <p> 
+        Los defectos subyacentes a los trastornos de la remetilación se localizan en el metabolismo de
+        dos vitaminas esenciales para el cuerpo. La cobalamina, que es otro nombre que se da a la
+        vitamina B12 y el MTHFR que juega un papel muy importante en el metabolismo del folato.
+        Inicialmente cualquier información relacionada con condiciones como ésta es difícil de entender,
+        sobre todo en un momento en que estás naturalmente preocupado y que de repente recibes una
+        gran cantidad de información médica.
+        Al describir esta enfermedad en formato de folleto, vas a poder leerlo en tu tiempo libre y luego
+        escribir cualquier duda importante que puedas querer preguntar a tu médico especialista, enfer-
+        mera o nutricionista.
+      </p>
+ </div>
 
+  <div class="container col-11" >
+   <h1>¿Cómo el cuerpo se ocupa de la proteína?</h1><hr>   
+     <p> 
+        Los alimentos que contienen proteínas son los huevos, leche, pescado, carne, queso, pan, etc.
+        Durante la digestión, las proteínas se descomponen en moléculas más pequeñas o “bloques de
+        construcción” para que sean transportadas por la sangre y sean utilizadas en el crecimiento y
+        reparación de tejidos.
+        Lo que empezó como un filete o un vaso de leche ahora se han degradado en 20 “bloques de
+        construcción” individuales conocidos como aminoácidos. Estos aminoácidos viajan en el torren-
+        te sanguíneo y se suministran a las células donde se necesitan. Uno de estos aminoácidos se
+        llama metionina.</p>
+        <p>
+        Aunque la mayoría de los aminoácidos se pueden generar en el propio cuerpo, hay otros aminoácidos esenciales que se ingieren con la dieta y no se pueden generar en el organismo. La
+        metionina es uno de estos “aminoácidos esenciales”.
+        Cuando la comida es ingerida y las proteínas se descomponen en sus aminoácidos, la metionina
+        se hace disponible para el metabolismo. En este llamado “metabolismo de la metionina” se forma
+        la homocisteína.
+        Además, una sustancia llamada ácido metilmalónico (“MMA”) se deriva de la metionina y de otros
+        aminoácidos esenciales tales como la isoleucina, valina y treonina.
+      </p>
+ 
+ <img class="img-fluid" src="img/metabolismo.png" style="width: 650px" alt="">
+</div>
+ <div class="container col-11" >
+   <h1>Rutas metabólicas de la metionina, homocisteína y ácido metilmalónico (MMA)</h1><hr>
+    <p>El metabolismo de la metionina es complejo, depende de muchos pasos y produce muchos
+        productos intermediarios, uno de los cuales es la homocisteína. La homocisteína será entonces
+        degradada en una sustancia inofensiva llamada cistationina o será reciclada otra vez a metionina.
+        Hay diferentes enzimas necesarias para que este proceso funcione. Algunas enzimas requieren
+        una vitamina (o “cofactor”).
+        El metabolismo de otro producto intermediario importante, el MMA, está localizado en la mitocon-
+        dria, la central energética celular.
+    </p>
+    <img class="img-fluid" src="img/metabolismo2.png"style="width: 500px" alt=""> 
+ </div>
+
+ <div class="container col-11" >
+   <h1>Trastornos de la remetilación</h1><hr>
+    <p>Los trastornos de la remetilación comparten el problema de que la homocisteína no puede ser
+      reciclada adecuadamente a metionina. Debido a esto, la homocisteína se mantiene elevada y la
+      metionina se mantiene baja en la sangre.
+      El principal problema compartido por todos los trastornos de la remetilación es que el ciclo de la
+      metionina, que a partir de la dieta se convierte en homocisteína y luego se convierte en metio-
+      nina otra vez, es interrumpido. Esta ruta homocisteína-metionina produce sustancias muy impor-
+      tantes (grupos metilo) que son necesarios en otras rutas metabólicas del cuerpo. Si se interrumpe
+      la ruta homocisteína-metionina, estos grupos metilo no van a estar disponibles en cantidades
+      suficientes. Consecutivamente, otras funciones importantes del cuerpo son afectadas. Además,
+      la homocisteína elevada en sí puede causar problemas de salud.
+      Algunos trastornos de remetilación resultan en un problema adicional: perjudican la disposición
+      del ácido metilmalónico (MMA) en las células del cuerpo. En estas enfermedades el MMA está
+      también elevado en la sangre y en la orina y puede causar problemas de salud adicionales.
+      La deficiencia de CblC, CblF y CblJ afectan tanto a la ruta homocisteína-metionina como a la ruta
+      del MMA. Los individuos afectados por la deficiencia de CblD tanto pueden tener un trastorno
+      combinado o problemas aislados de las rutas homocisteína-metionina o MMA. Cuál variante va
+      a presentar la enfermedad va a depender de la localización de la mutación en el gen responsable
+      por el trastorno de CblD.
+      En la deficiencia severa de MTHFR así como en los trastornos de CblE y CblG se afectan la ruta
+      homocisteína-metionina; el MMA es normal en los individuos afectados.
+    </p>
+ </div>
+
+ <div class="container col-11" >
+   <h1>¿Cuáles son los síntomas?</h1><hr>
+    <p>Los síntomas varían de persona para persona y pueden ocurrir en diferentes edades, tanto en la
+      adolescencia como en el adulto. La mayoría de los bebés que nacen con un trastorno de reme-
+      tilación parecen normales en el nacimiento pero algunos niños pueden presentar problemas de
+      salud muy precozmente.
+      Los trastornos de la remetilación producen una amplia gama de síntomas, que pueden empezar
+      a evolucionar con ya pocos días de vida.
+      Los trastornos de la remetilación comparten el problema de que la homocisteína no puede ser
+      reciclada adecuadamente a metionina. Debido a esto, la homocisteína se mantiene elevada y la
+      metionina se mantiene baja en la sangre.
+      El principal problema compartido por todos los trastornos de la remetilación es que el ciclo de la
+      metionina, que a partir de la dieta se convierte en homocisteína y luego se convierte en metio-
+      nina otra vez, es interrumpido. Esta ruta homocisteína-metionina produce sustancias muy impor-
+      tantes (grupos metilo) que son necesarios en otras rutas metabólicas del cuerpo. Si se interrumpe
+      la ruta homocisteína-metionina, estos grupos metilo no van a estar disponibles en cantidades
+      suficientes. Consecutivamente, otras funciones importantes del cuerpo son afectadas. Además,
+      la homocisteína elevada en sí puede causar problemas de salud.
+      Algunos trastornos de remetilación resultan en un problema adicional: perjudican la disposición
+      del ácido metilmalónico (MMA) en las células del cuerpo. En estas enfermedades el MMA está
+      también elevado en la sangre y en la orina y puede causar problemas de salud adicionales.
+      La deficiencia de CblC, CblF y CblJ afectan tanto a la ruta homocisteína-metionina como a la ruta
+      del MMA. Los individuos afectados por la deficiencia de CblD tanto pueden tener un trastorno
+      combinado o problemas aislados de las rutas homocisteína-metionina o MMA. Cuál variante va
+      a presentar la enfermedad va a depender de la localización de la mutación en el gen responsable
+      por el trastorno de CblD.
+      En la deficiencia severa de MTHFR así como en los trastornos de CblE y CblG se afectan la ruta
+      homocisteína-metionina; el MMA es normal en los individuos afectados.
+      Trastornos de la remetilación
+      ¿Cuáles son los síntomas?
+      7
+      Los síntomas más comunes afectan principalmente a cuatro sistemas del cuerpo: los ojos, el ce-
+      rebro, el sistema vascular (vasos sanguíneos) y los riñones. Los síntomas oculares más comunes
+      son derivados de alteraciones en la retina y en el nervio óptico que puede resultar en el deterioro
+      o incluso la pérdida de la visión. Se han reportado a menudo retraso en el desarrollo, problemas
+      de aprendizaje, problemas de conducta y, en pacientes de edad avanzada no tratados, se de-
+      tectaron problemas psiquiátricos y disfunción de los nervios periféricos (neuropatías). Las imáge-
+      nes cerebrales pueden reflejar alteraciones de la sustancia blanca y/o el cerebro puede ser más
+      pequeño que lo normal. Altos niveles de homocisteína aumentan la tendencia a coagularse de la
+      sangre. Por lo tanto, los individuos afectados pueden desarrollar trombosis venosa o hipertensión
+      arterial pulmonar. Problemas renales agudos o insuficiencia renal crónica se producen sobretodo
+      en pacientes no tratados y pueden ser el primer signo de la enfermedad.
+      La anemia macrocítica, que significa un bajo número de glóbulos rojos de gran tamaño, se ve
+      a menudo en los pacientes no tratados. Una excepción es la deficiencia severa de MTHFR, en
+      que muy raramente se produce anemia macrocítica.
+      Este listado descrito no es en absoluto exhaustiva. Los pacientes con trastornos de remetilación
+      pueden desarrollar una amplia gama de síntomas y no todos los pacientes desarrollan los mis-
+      mos síntomas.
+      La mayor parte de nuestro conocimiento sobre la respuesta de los trastornos de remetilación
+      al tratamiento es derivado de la experiencia con los defectos de CblC, el más frecuente de estos trastornos. Es importante tener en cuenta que el tratamiento temprano puede evitar que ocurran muchos de los síntomas enumerados anteriormente o prevenir el empeoramiento de los síntomas que pueden estar presentes en el momento del diagnóstico. Sin embargo, los defectos de CblC que afectan al cerebro, el deterioro cognitivo y enfermedades ópticas, no responden tan bien al tratamiento como otros síntomas y pueden incluso ser progresivos.
+      En la deficiencia severa de MTHFR el cerebro parece responder mejor al tratamiento temprano que en el defecto de CblC.
+      </p>
     </div>
-  </div>
-
-
-
-
-
+<div class="container col-11" >
+   <h1>Tratamiento</h1><hr>
+      <p>
+          Objetivos del tratamiento
+          La edad de diagnóstico inicial de los trastornos de remetilación y la severidad de la condición
+          determinarán los diferentes objetivos del tratamiento.
+          • En recién nacidos diagnosticados de un trastorno de la remetilación el objetivo es pre-
+          venir el desarrollo de síntomas.
+          • Cuando se hace un diagnóstico tardío, en general cuando algunos de los síntomas ya
+          se han desarrollado, el objetivo es evitar más complicaciones y el empeoramiento de
+          los síntomas que ya están presentes.
+          Para lograr estos objetivos clínicos, todas las opciones de tratamiento están dirigidas a redu-
+          cir la homocisteína, normalizar la metionina y, finalmente, los niveles de MMA
+          Un paciente puede así recibir parte o la totalidad de los tratamientos que se describen a con-
+          tinuación.
+          A) Inyecciones de hidroxicobalamina. En los trastornos de la remetilación basados en las
+          disfunciones de la ruta de cobalamina, son administradas dosis altas dosis de hidroxi-
+          cobalamina, sobre todo por vía intramuscular. Desafortunadamente las formas disponi-
+          bles por vía oral de cobalamina no son eficaces en estos trastornos, pero pueden ser
+          suficientes en la deficiencia severa de MTHFR.
+          B) La Betaína es una sustancia alimenticia natural que activa una vía enzimática diferente
+          y reduce los niveles de homocisteína al convertirla otra vez a metionina. La betaína se
+          utiliza en todos los trastornos de remetilación.
+          C) El ácido fólico o folínico se utilizan como terapia adjunta para restaurar la deficiencia
+          de folato celular y cerebral en la deficiencia severa de MTHFR. En todos los demás
+          trastornos de remetilación, el objetivo de complementar con ácido fólico es optimizar
+          las actividades enzimáticas del metabolismo de la metionina, una vez que las enzimas
+          implicadas requieren esta vitamina para trabajar de manera eficiente. Véase la figura
+          del metabolismo de la metionina en página 5 para ver dónde actúa).
+          D) Carnitina se puede administrar para evitar la deficiencia de carnitina en los trastornos
+          con MMA elevado
+          Es muy importante que tomes toda la medicación prescrita por tu médico. En caso de que
+          necesites asistencia adicional con el cumplimiento de tu tratamiento, debes consultar a tu
+          médico.
+      </p>
+ </div>
+ <div class="container col-11" >
+   <h1>¿Porqué mi hijo tiene esta enfermedad?</h1><hr>
+ <p>
+    Los trastornos de la remetilación son condiciones genéticas. Esto significa que son transmitidos
+    a través de los genes y no provocados por cualquier otra cosa que pueda haber ocurrido duran-
+    te el embarazo. Los trastornos genéticos se heredan y hay diferentes patrones de herencia. El
+    patrón de herencia para los trastornos de remetilación se denomina autosómica recesiva que
+    significa que un defecto genético se hereda de cada padre. En otras palabras, ambos padres son
+    portadores de la enfermedad de remetilación.
+    Las personas que son portadoras de un gen normal y de un mutado o gen “causante de la enfer-
+    medad” se llaman de “portadores”. Los portadores están bien y, normalmente, no presentan nin-
+    gún síntoma de la enfermedad. Cuando ambos padres son portadores, tienen una probabilidad
+    de 1 en 4 (25%) en cada embarazo de que el niño nazca con la enfermedad. También hay una
+    probabilidad de 1 en 2 (50%) de que el bebé sea un portador, como los padres, y 1 en 4 (25%) de
+    probabilidad de que el bebé haya heredado dos genes normales.
+ </p>
+</div>
+<div class="container col-11" >
+   <h1>Resultados a largo plazo</h1><hr>
+   <p>
+      Como se describió anteriormente, la presentación de los trastornos de la remetilación es muy
+      variable. Sin embargo, se tratan de condiciones crónicas que requieren tratamiento de por vida,
+      su supervisión y visitas clínicas periódicas y especializadas.
+      Para los recién nacidos diagnosticados y tratados desde poco después del nacimiento, el resul-
+      tado a largo plazo es generalmente mucho mejor. Un buen control metabólico asegura mejores
+      posibilidades de evitar complicaciones. Sin embargo, en las formas severas de estos trastornos,
+      incluso con un buen control metabólico, la enfermedad puede no mejorar o incluso puede evo-
+      lucionar.
+      En algunas personas, la enfermedad no es diagnosticada hasta más tarde en la infancia o en
+      la adolescencia, por lo que en ese momento puede ya haber varios problemas establecidos.
+      El tratamiento sin embargo es de igual importancia para estas personas para prevenir el empeo-
+      ramiento de los síntomas que ya están presentes, prevenir que aparezcan otras complicaciones
+      y mejorar la calidad de vida.
+      Tu médico puede ser capaz de ponerte en contacto con otras familias afectadas si así lo deseas
+   </p>
+ </div>
+ <div class="container col-11" >
+   <h1>Glosario</h1><hr>
+   <p>
+      Aminoácidos: “bloques de construcción” de las proteínas
+      Enzima: proteína que se encuentra en el cuerpo que hace que las reacciones químicas sean
+      más rápidas
+      Cofactor: compuesto de origen natural (vitaminas) que necesita una enzima para que funcione
+      correctamente
+      Intramuscular: en él músculo
+      Vía oral: por la boca
+      Pediatra: médico especialista en el cuidado de niños
+      Metionina: aminoácido que se convierte en el cuerpo a homocisteína
+      Homocisteína: aminoácido que se encuentra elevado en los trastornos de remetilación
+      Ácido metilmalónico: es un producto de la mitocondria que requiere su eliminación y se en-
+      cuentra elevado en los trastornos de remetilación combinados tales como el defecto de CblC
+      ‘Buen control metabólico’: donde los niveles de homocisteína, metionina y eventualmente de
+      MMA se mantienen dentro del intervalo deseado a fin de minimizar las complicaciones.
+   </p>
+ </div>
 <!-----------------------------------Termina codigo-------------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>

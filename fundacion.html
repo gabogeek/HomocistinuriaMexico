@@ -13,47 +13,91 @@
  <!-------------------------------------Empieza codigo------------------------------->
   
  
-  <!-----Bara de navegacion--------------------------------------------------->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light-fluid" >
+   <!-----Bara de navegacion--------------------------------------------------->
 
-    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.svg"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+   
+<nav class="navbar navbar-expand-xl bg-dark navbar-dark ">
+  <a href="index.html" class="navbar-brand"><img src="img/logo.svg" style="width: 200px"></a>
+
+    <button class="navbar-toggler" type="button"data-toggle="collapse" data-target="#uno">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNav">
-     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="cbs.html">Homocistinuria Clásica</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="remi.html">Trastornos de la remetilación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="fundacion.html">La fundación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disable" href="#">Información para Doctores</a>
-      </li>
-      </ul>
-    </div>
-  </nav>
-<!-- -----------------Fin Barra navegacion----------------->
- <h1>Fundacion</h1>
-  <div class="container-fluid">
-    <div class="row">
-      
-      <div class="col-6">¿Cómo se ocupa el cuerpo de las
-proteínas?</div>
-      <div class="col-6">La degradación de la metionina y de
-la homocisteína</div>
 
+    <div class="collapse navbar-collapse" id="uno"> 
+        <ul class="navbar-nav ml-auto"><!-- ul mas nav, navegacion(nav-pills una forma de manipular) -->
+          <li class="nav-item"><a href="index.html" class="nav-link active">INICIO</a></li>
+          <li class="nav-item dropdown">
+            <a href="cbs.html" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop" >HOMOCISTINURIA CLÁSICA</a>
+              <div class="dropdown-menu">
+                <a href="cbs.html" class="dropdown-item ">¿COMÓ EL CUERPO TRATA A LA PROTÉINA?</a>
+                <a href="#" class="dropdown-item ">DEGRADACIÓN DE LA METIONINA Y HOMOCISTEINA</a>
+                <a href="#" class="dropdown-item">HOMOCISTINURIA</a>
+                <a href="#" class="dropdown-item">SINTOMAS</a>
+                <a href="#" class="dropdown-item">TRATAMIETNO</a>
+                <a href="#" class="dropdown-item">¿PORQUÉ MI HIJO TIENE ESTA ENFERMEDAD?</a>
+                <a href="#" class="dropdown-item">RESULTADOS A LARGO PLAZO</a>
+                <a href="#" class="dropdown-item">GLOSARIO</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="remi.html" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">TRASTORNOS DE LA REMETILACIÓN</a>
+              <div class="dropdown-menu">
+                <a href="remi.html" class="dropdown-item">FUNCIÓN METABOLICA</a>
+                <a href="#" class="dropdown-item">¿COMO SE OCUPA EL CUERPO DE LA PROTEINA?</a>
+                <a href="#" class="dropdown-item col-xs-12">RUTAS METABOLICAS DE LA METIONINA-HOMOCISTEINA</a>
+                <a href="#" class="dropdown-item">TRASTORNOS DE LA REMETILACIÓN</a>
+                <a href="#" class="dropdown-item">SINTOMAS</a>
+                <a href="#" class="dropdown-item">TRATAMIETNO</a>
+                <a href="#" class="dropdown-item">¿PORQUÉ MI HIJO TIENE ESTA ENFERMEDAD?</a>
+                <a href="#" class="dropdown-item">RESULTADOS A LARGO PLAZO</a>
+                <a href="#" class="dropdown-item">GLOSARIO</a>
+              </div>
+          </li>
+            <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">LA FUNDACIÓN</a>
+              <div class="dropdown-menu">
+                <a href="fundacion.html" class="dropdown-item">¿QUIENES SOMOS?</a>
+                <a href="#" class="dropdown-item">MISIÓN</a>
+                <a href="#" class="dropdown-item">VISIÓN</a>
+                <a href="#" class="dropdown-item">OBJETIVO</a>
+                <a href="#" class="dropdown-item">CONTACTO</a>
+              </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link disabled">INFORMACIÓN PARA DOCTORES</a></li>    
+        </ul>
     </div>
+</nav>
+  <!-- -----------------Fin Barra navegacion----------------->
+ <div class="container col-11" >
+   <h1>¿Quiénes somos?</h1><hr>   
+     <p> 
+        Somos una organización no gubernamental, sin ánimo de lucro, creada por ciudadanos mexicanos, que apoyamos y nos preocupamos por la salud de los niños, unidos con médicos apoyamos la difusión, diagnóstico y tratamiento para combatir la homocistinuria</p>
+        
   </div>
 
+
+<div class="container col-11" >
+   <h1>Silvia Gudiño Zepeda</h1><hr>   
+     <p> 
+        Soy casada, tengo 2 hijas y una nieta. Soy originaria de la Ciudad de México y actualmente radico en cuernavaca Morelos. Me dedico a la costura y a participar en labores sociales.
+
+        Me interesa mucho el bienestar de las personas que padecen alguna enfermedad que no es común, en especial en niños, y quiero contribuir a la mejora de estos pacientes y sus familiares, ayudando activamente a encontrar los caminos necesarios para poder brindarles apoyo y esperanza de mejorar su salud y calidad de vida. Y con esto me siento bien conmigo misma, aportando servicio y amor a este país</p>
+ 
+ <img class="img-fluid" src="img/silvia.JPG" style="width: 450px" alt="">
+</div>
+
+<div class="container col-11" >
+   <h1>Licenciada Silvia Noemí Caballero Gudiño</h1><hr>   
+     <p> 
+      Mujer de 33 años Licenciada en Pedagogía y Terapeuta con enfoque centrado en la persona y en las emociones. Dedicada a dar terapias a niños, adolescentes y adultos.
+
+      Talleres a niños y adolescentes principalmente sobre el manejo de emociones y como mi cuerpo y mi mente los asimilan. Mi interés por ayudar a las personas con la enfermedad Homocistinuria es por que como terapeuta tengo la plena convicción que nuestras emociones podemos manejarlas más efectivamente cuando aceptamos nuestra situación real.
+
+      Lo que nos da un camino de vida más benéfico es la manera en la que canalizamos nuestros sentimientos a nuestro cuerpo. Ayudar a las personas es algo que realizo con plena convicción y mi objetivo es poder brindarles a las personas su propio reconocimiento, aceptación y asimilación de la vida que tienen en este momento.
+</p>
+ 
+ <img class="img-fluid" src="img/licsilvia.JPG" style="width: 450px" alt="">
+</div>
 <!-----------------------------------Termina codigo-------------------------------->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="js/popper.min.js"></script>

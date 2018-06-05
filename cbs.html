@@ -13,48 +13,249 @@
  <!-------------------------------------Empieza codigo------------------------------->
   
  
-  <!-----Bara de navegacion--------------------------------------------------->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light-fluid" >
+   <!-----Bara de navegacion--------------------------------------------------->
 
-    <a class="navbar-brand" href="index.html"><img class="img-fluid" src="img/logo.svg"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"aria-expanded="false" aria-label="Toggle navigation">
+   
+<nav class="navbar navbar-expand-xl bg-dark navbar-dark ">
+  <a href="index.html" class="navbar-brand"><img src="img/logo.svg" style="width: 200px"></a>
+
+    <button class="navbar-toggler" type="button"data-toggle="collapse" data-target="#uno">
       <span class="navbar-toggler-icon"></span>
     </button>
-    
-    <div class="collapse navbar-collapse" id="navbarNav">
-     <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="cbs.html">Homocistinuria Clásica</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="remi.html">Trastornos de la remetilación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="fundacion.html">La fundación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disable" href="#">Información para Doctores</a>
-      </li>
-      </ul>
+
+    <div class="collapse navbar-collapse" id="uno"> 
+        <ul class="navbar-nav ml-auto"><!-- ul mas nav, navegacion(nav-pills una forma de manipular) -->
+          <li class="nav-item"><a href="index.html" class="nav-link active">INICIO</a></li>
+          <li class="nav-item dropdown">
+            <a href="cbs.html" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop" >HOMOCISTINURIA CLÁSICA</a>
+              <div class="dropdown-menu">
+                <a href="cbs.html" class="dropdown-item ">¿COMÓ EL CUERPO TRATA A LA PROTÉINA?</a>
+                <a href="#" class="dropdown-item ">DEGRADACIÓN DE LA METIONINA Y HOMOCISTEINA</a>
+                <a href="#" class="dropdown-item">HOMOCISTINURIA</a>
+                <a href="#" class="dropdown-item">SINTOMAS</a>
+                <a href="#" class="dropdown-item">TRATAMIETNO</a>
+                <a href="#" class="dropdown-item">¿PORQUÉ MI HIJO TIENE ESTA ENFERMEDAD?</a>
+                <a href="#" class="dropdown-item">RESULTADOS A LARGO PLAZO</a>
+                <a href="#" class="dropdown-item">GLOSARIO</a>
+              </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="remi.html" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">TRASTORNOS DE LA REMETILACIÓN</a>
+              <div class="dropdown-menu">
+                <a href="remi.html" class="dropdown-item">FUNCIÓN METABOLICA</a>
+                <a href="#" class="dropdown-item">¿COMO SE OCUPA EL CUERPO DE LA PROTEINA?</a>
+                <a href="#" class="dropdown-item col-xs-12">RUTAS METABOLICAS DE LA METIONINA-HOMOCISTEINA</a>
+                <a href="#" class="dropdown-item">TRASTORNOS DE LA REMETILACIÓN</a>
+                <a href="#" class="dropdown-item">SINTOMAS</a>
+                <a href="#" class="dropdown-item">TRATAMIETNO</a>
+                <a href="#" class="dropdown-item">¿PORQUÉ MI HIJO TIENE ESTA ENFERMEDAD?</a>
+                <a href="#" class="dropdown-item">RESULTADOS A LARGO PLAZO</a>
+                <a href="#" class="dropdown-item">GLOSARIO</a>
+              </div>
+          </li>
+            <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" id="navbardrop">LA FUNDACIÓN</a>
+              <div class="dropdown-menu">
+                <a href="fundacion.html" class="dropdown-item">¿QUIENES SOMOS?</a>
+                <a href="#" class="dropdown-item">MISIÓN</a>
+                <a href="#" class="dropdown-item">VISIÓN</a>
+                <a href="#" class="dropdown-item">OBJETIVO</a>
+                <a href="#" class="dropdown-item">CONTACTO</a>
+              </div>
+          </li>
+          <li class="nav-item"><a href="#" class="nav-link disabled">INFORMACIÓN PARA DOCTORES</a></li>    
+        </ul>
     </div>
-  </nav>
-<!-- -----------------Fin Barra navegacion----------------->
- <h1>Metabolismo</h1>
-  <div class="container-fluid">
-    <div class="row">
-      
-      <div class="col-6">¿Cómo se ocupa el cuerpo de las
-proteínas?</div>
-      <div class="col-6">La degradación de la metionina y de
-la homocisteína</div>
+</nav>
+  <!-- -----------------Fin Barra navegacion----------------->
 
-    </div>
-  </div>
+<div class="container col-11" >
+   <h1>¿Cómo se ocupa el cuerpo de las proteínas?</h1><hr>
+    <p> Los alimentos que contienen proteínas son los huevos, la leche, el pescado, la carne, el queso, el pan, etc. Durante la digestión, la proteína se descompone en moléculas más pequeñas
+        o “bloques de construcción” para ser transportadas por la sangre y se utilizan para el crecimien-
+        to y reparación de los tejidos.
+        Lo que empezó como un filete o un vaso de leche ahora se ha degradado en 20 “bloques
+        de construcción” individuales conocidos como aminoácidos. Estos aminoácidos viajan en el torrente sanguíneo y se suministran a las células donde se necesitan. Uno de estos aminoácidos
+        se llama metionina.
+        Si hay más metionina que la que el cuerpo necesita, la metionina extra se descompone. La homocisteína se forma durante la ruptura de la metionina.          
+       <img class="img-fluid" src="img/metabolismo.png" style="width: 650px" alt="">
+    </p>
+ </div>
+ <div>
+  <h1>La degradación de la metionina y de la homocisteína</h1><hr>
+    <p> La ruptura de la metionina es algo complicado.
+        La homocisteína se forma durante la degradación de la metionina; posteriormente se
+        puede romper aún más en una sustancia
+        inofensiva llamada cistationina o se recicla
+        de nuevo a metionina.
+        Las enzimas son compuestos que hacen
+        que las reacciones químicas ocurran en
+        nuestro cuerpo. La conversión de homo-
+        cisteina a cistationina requiere una enzima
+        llamada de cistationina beta-sintasa (CBS).
+        Para trabajar de manera eficiente, esta enzima requiere la vitamina B6 (piridoxina).
+        Si la enzima CBS no está funcionando
+        de manera eficiente, habrá una acumulación de homocisteína que causa problemas
+        de salud y conduce a la enfermedad llamada homocistinuria.         
+       <img class="img-fluid" src="img/degradacion.png" style="width: 650px" alt="">
+    </p>
+</div>
+ <div>
+  <h1>Homocistinuria</h1><hr>
+    <p> “Homocistinuria“ significa la presencia de homocistina en la orina, que se produce cuando los ni-
+        veles de homocisteína en la sangre están elevados. Hay varios tipos diferentes de homocistinuria
+        causadas por diferentes defectos en el metabolismo de la metionina. La homocistinuria clásica
+        se refiere al tipo en el que la CBS (cistationina beta-sintasa) no está funcionando adecuadamente.         
+    </p>
+</div>
 
+ <div>
+  <h1>¿Cuáles son los síntomas?</h1><hr>
+    <p> Los síntomas pueden variar de persona a persona y pueden ocurrir en diferentes edades. Los
+        bebés que nacen con homocistinuria generalmente parecen normales al nacer. En varios países,
+        la homocistinuria se puede detectar en el programa de cribado neonatal a partir de la sangre
+        impregnada en papel del recién nacido.
+        La homocistinuria causa una amplia gama de síntomas que pueden comenzar a desarrollarse
+        progresivamente desde que tiene pocos meses de edad. Los síntomas más comunes afectan
+        principalmente a cuatro sistemas del cuerpo: el ojo, el cerebro, los huesos y el sistema vascular
+        (vasos sanguíneos).
+        Los síntomas oculares más comunes incluyen miopía severa, luxación del cristalino (ectopia
+        del cristalino) y glaucoma. Los síntomas oculares son a menudo los primeros signos de la enfer-
+        medad y pueden hacer sospechar la enfermedad y diagnosticarla.
+        La homocistinuria también puede causar retraso en el desarrollo y dificultades de aprendizaje
+        y en los pacientes de edad avanzada y no tratados se han reportado problemas psiquiátricos.
+        Los niveles muy altos de homocisteína aumentan la tendencia de la sangre a coagularse y por lo
+        tanto, incluso las personas jóvenes con homocistinuria pueden desarrollar aterosclerosis o trom-
+        bosis que puede presentarse como derrames cerebrales, ataques cardíacos y trombosis veno-
+        sa. También hay algunos efectos esqueléticos tal como se ha observado que los pacientes no
+        tratados son a menudo más altos que la media y tienen brazos y piernas largas. La osteoporosis
+        temprana también puede ser vista en los hombres y mujeres afectadas.
+        Es importante tener en cuenta que el tratamiento temprano puede evitar que muchos de estos
+        síntomas se produzcan o prevenir el empeoramiento de los síntomas que pueden estar presen-
+        tes en el momento del diagnóstico.
+        La lista anterior no es absoluto exhaustiva. Los pacientes con homocistinuria pueden desarrollar
+        una amplia gama de síntomas y no todos los pacientes desarrollan los mismos síntomas.        
+    </p>
+</div>
 
+ <div>
+  <h1>Tratamiento</h1><hr>
+    <p> Objetivos del tratamiento
+        La edad de diagnóstico inicial de la homocistinuria y la severidad de la enfermedad determinarán
+        los diferentes objetivos de tratamiento.
+        Para los recién nacidos diagnosticados de homocistinuria, el objetivo es prevenir el desarrollo
+        de síntomas y asegurar el desarrollo de un crecimiento normal y de la inteligencia.
+        Cuando el diagnóstico se hace tardíamente con más edad y ya se han desarrollado algunos sín-
+        tomas, el objetivo es evitar complicaciones mayores, tales como eventos tromboembólicos (como
+        accidentes cerebrovasculares o ataques al corazón) y prevenir el empeoramiento de los síntomas
+        que ya están presentes.
+        Para lograr estos objetivos clínicos, todas las opciones terapéuticas están dirigidas a reducir los
+        niveles de homocisteína en la sangre.
+        El tipo de tratamiento para la homocistinuria depende en gran medida de si los niveles de homo-
+        cisteína de la persona afectada responden al tratamiento con piridoxina (vitamina B6) y la homo-
+        cistinuria se puede clasificar en dos tipos:
+        1. Homocistinuria sensible a la piridoxina .
+        2. Homocistinuria no sensible a la piridoxina .
+        Tras el diagnóstico, a todos los nuevos pacientes con homocistinuria se les da un tratamiento-ensa-
+        yo de piridoxina para establecer si son sensibles o no antes de iniciar el tratamiento dietético.
+        1. Homocistinuria sensible a la piridoxina
+        Para los pacientes que responden al tratamiento con piridoxina (es decir, sus valores de homocis-
+        teína caen drásticamente con el tratamiento), altas dosis de piridoxina (vitamina B6) serán la base
+        del tratamiento. Los efectos secundarios son raros; sin embargo, debes consultar a tu médico
+        si estás preocupado.
+        Tratamiento
+        8
+        2. Homocistinuria no sensible a la piridoxina
+        Para los pacientes que no disminuyan sus niveles de homocisteína cuando son tratados sólo con
+        piridoxina, se necesitarán tratamientos adicionales. Un plan de tratamiento individualizado será
+        iniciado y controlado por un médico especialista con el fin de lograr el mejor resultado posible
+        para cada paciente.
+        Por lo tanto, un paciente puede recibir parte o la totalidad de los tratamientos que se indican a la
+        continuación:
+        A) Dieta restringida en metionina: una dieta restringida en metionina para reducir los altos nive-
+        les de homocisteína es aplicada frecuentemente en el tratamiento de homocistinuria no sensible
+        a la piridoxina. Esta dieta especial será prescrita por el médico en conjunto con un dietista y será
+        monitorizada regularmente y modificada de acuerdo con los niveles sanguíneos de metionina y
+        de homocisteína. Hay 3 componentes principales en la dieta:
+        i) Evitar alimentos ricos en proteínas como huevos, carne, etc, pero como la metionina
+        es un aminoácido esencial serán necesarias pequeñas cantidades de proteínas naturales
+        para el normal desarrollo y crecimiento. La cantidad de proteína necesaria se adapta a cada
+        paciente.
+        ii) Bebidas de sustitución libres de metionina – se trata de una bebida especialmente formu-
+        lada con todos los otros aminoácidos excepto el que aumenta la homocisteína – la metionina.
+        Una vez que la pequeña cantidad de proteína natural permitida en la dieta no es suficiente
+        para satisfacer nuestras necesidades diarias de proteínas, esta bebida especial (proteína
+        sintética) es una parte muy importante de la dieta, ya que proporciona todos los otros amino-
+        ácidos requeridos por el cuerpo sin el aminoácido ‘nocivo’. También pueden ser necesarios
+        suplementos de cisteína una vez que este aminoácido se encuentra a menudo en bajos
+        niveles en personas con homocistinuria.
+        iii) Alimentos libres o con bajo contenido de proteínas, incluyendo frutas, verduras y productos
+        disponibles comercialmente, por ejemplo, harina con reducido contenido proteico, pan, pastas,
+        leches, etc. Estos llamados “alimentos libres” pueden ser consumidos sin restricciones.
+        B) Suplementos de vitaminas con piridoxina, ácido fólico y vitamina B12: el objetivo de comple-
+        mentar con estas vitaminas o cofactores (piridoxina, ácido fólico y vitamina B12) es optimizar las
+        actividades de las enzimas del metabolismo de la metionina, una vez que las enzimas implicadas
+        requieren estas vitaminas para trabajar de manera eficiente. (Ver figura 2). Estos suplementos se
+        dan generalmente por vía oral, aunque pueden ser necesarias inyecciones de vitamina B12 de
+        forma intermitente.
+        C) La betaína es una sustancia alimenticia natural que activa una vía enzimática diferente,
+        (a veces llamada vía de reciclaje) y reduce los niveles de homocisteína por la reconversión de nue-
+        vo a metionina.
+        Es muy importante que tome toda la medicación según lo prescrito por su médico.       
+    </p>
+</div>
+
+ <div>
+  <h1>¿Por qué yo o mi hijo/a tenemos esta enfermedad?</h1><hr>
+    <p> La homocistinuria clásica es una enfermedad genética. Esto significa que se transmite a través
+        de los genes y no es provocada por cualquier cosa que pueda haber ocurrido durante el emba-
+        razo. Los trastornos genéticos se heredan y hay diferentes patrones de herencia. El patrón de
+        herencia para la homocistinuria se denomina autosómica recesiva, lo que significa que un de-
+        fecto genético se hereda de cada padre. En otras palabras, ambos padres son portadores de
+        homocistinuria.
+        Las personas que portan un gen CBS normal y un gen CBS mutado (homocistinuria) se llaman
+        “portadores”. Los portadores están bien clínicamente y, normalmente, no tienen ningún síntoma
+        de la enfermedad. Cuando ambos padres son portadores, tienen una probabilidad de 1 en 4 (25%)
+        en cada embarazo de que el niño nacido tendrá homocistinuria. También hay una probabilidad
+        de 1 en 2 (50%) de que el bebé es portador de la enfermedad, como los padres, y 1 en 4 (25%) de
+        probabilidades de que el bebé ha heredado los dos genes normales de CBS.
+        El diagrama muestra cómo sucede esto:   
+        <img class="img-fluid" src="img/genetica.png" style="width: 650px" alt="">    
+    </p>
+</div>
+
+ <div>
+  <h1>El resultado a largo plazo de pacientes tratados con homocistinuria</h1><hr>
+    <p> Se ha demostrado que los pacientes diagnosticados por cribado neonatal o muy temprano en la
+        infancia y que recibieron tratamiento precoz, tienen un buen control bioquímico y pueden vivir
+        y disfrutar de una vida normal.
+        Para aquellos que ya mostraron algún síntoma en el momento del diagnóstico, el tratamiento
+        empleado con un buen control bioquímico ha demostrado que detiene la evolución de los sínto-
+        mas y permite mejorar la calidad de vida.
+        En caso de necesitar asistencia adicional con el cumplimiento de su tratamiento, debes buscar
+        ayuda de tu médico.  
+    </p>
+</div>
+
+ <div>
+  <h1>Glosario</h1><hr>
+    <p> Aminoácidos: “bloques de construcción” de las proteínas
+        Cribado neonatal: análisis de sangre realizada a los recién nacidos en los primeros días de vida
+        en busca de diversos trastornos genéticos/metabólicos. Algunos países incluyen la homocistinu-
+        ria no sensible a la piridoxina en este cribado.
+        Enzima: proteína que se encuentra en el cuerpo que hace que las reacciones químicas sean más
+        rápidas
+        Cofactor: compuesto de origen natural (vitaminas) que necesita una enzima para que funcione
+        correctamente.
+        Por vía oral: por la boca
+        Pediatra: médico especialista en el cuidado de niños
+        Metionina: aminoácido que se convierte en el cuerpo a homocisteína
+        Homocisteína: aminoácido que se encuentra elevado en la homocistinuria
+        Cistationina beta sintasa (CBS): enzima que se encuentra deficiente en la homocistinuria
+        “Buen control metabólico”: donde los niveles de homocisteína se mantienen dentro del rango
+        deseado con el fin de minimizar complicaciones  
+    </p>
+</div>
 
 
 
